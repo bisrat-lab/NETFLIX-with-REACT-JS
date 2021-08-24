@@ -1,8 +1,27 @@
-.poster{
+.posters-container{
     display: flex;
+    overflow-y: hidden;
+    overflow-x:auto;
+    padding: 20px;
+}
+.posters-container::-webkit-scrollbar{
+    display: none;
+   
 }
 .poster{
     object-fit:contain;
     width: 100%;
     max-height: 100px;
+    margin-right: 10px;
+    transition:transform 450ms;
+}
+
+.poster:hover{
+    transform: scale(1.08);
+}
+.large-poster{
+    max-height: 250px;
+}
+.large-poster:hover{
+    transform: scale(1.09);
 }
