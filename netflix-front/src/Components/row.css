@@ -1,3 +1,7 @@
+.row {
+    color: white;
+    margin-left: 20px;
+}
 .posters-container{
     display: flex;
     overflow-y: hidden;
@@ -25,3 +29,4 @@
 .large-poster:hover{
     transform: scale(1.09);
 }
+
